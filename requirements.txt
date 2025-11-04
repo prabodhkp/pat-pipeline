@@ -11,7 +11,7 @@ Pillow>=11.2.1,<12
 # Streamlit-compatible Altair
 altair==4.2.2
 pyvista>=0.46.3,<0.47
-opencv-python>=4.10.0,<4.11
+opencv-python-headless==4.10.0.84
 
 # TensorFlow CPU version
 tensorflow-cpu==2.10.0
