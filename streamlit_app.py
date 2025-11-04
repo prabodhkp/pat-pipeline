@@ -2,6 +2,7 @@
 PAT Reconstruction Pipeline - Streamlit Web App (Fixed)
 Integrates: Denoising → Time Reversal → PINN Prediction
 """
+import cv2 as cv  # allow old k-Wave imports using 'cv' to work
 import os
 import sys
 import numpy as np
