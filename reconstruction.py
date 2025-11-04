@@ -5,6 +5,7 @@ import os
 import numpy as np
 import scipy.io as sio
 from scipy.interpolate import interp1d
+import cv2 as cv  # make cv point to cv2
 from kwave.kgrid import kWaveGrid
 from kwave.kmedium import kWaveMedium
 from kwave.ksensor import kSensor
