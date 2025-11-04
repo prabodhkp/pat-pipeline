@@ -8,3 +8,4 @@ scikit-image
 h5py
 pillow
 pyvista
+k-Wave-python
