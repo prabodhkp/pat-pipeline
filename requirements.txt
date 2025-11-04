@@ -9,4 +9,4 @@ h5py
 pillow
 pyvista
 k-Wave-python
-opencv-python ==4.8.1.78
+opencv-python==4.8.1.78
