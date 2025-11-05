@@ -1,21 +1,22 @@
-# Streamlit Cloud–compatible requirements
-streamlit==1.14.0
+# Streamlit
+streamlit>=1.28.0
 
 # Core scientific packages
-numpy>=1.23.5,<1.25
-scipy==1.14.1
-matplotlib>=3.10.0,<3.11
-pandas>=2.3.3,<2.4
-scikit-image>=0.21.0,<0.22
-Pillow>=11.2.1,<12
-# Streamlit-compatible Altair
-altair==4.2.2
-pyvista>=0.46.3,<0.47
-opencv-python-headless==4.10.0.84
+numpy>=1.23.5,<1.26
+scipy>=1.9.0,<1.15
+matplotlib>=3.7.0,<4.0
+pandas>=2.0.0,<3.0
+
+# Image processing - HEADLESS version (no GUI needed)
+opencv-python-headless>=4.8.0,<5.0
+Pillow>=10.0.0
 
 # TensorFlow CPU version
-tensorflow-cpu==2.10.0
-h5py==3.12.1       # satisfies both TF and k-Wave-python
+tensorflow-cpu>=2.13.0,<2.16
+h5py>=3.8.0,<4.0
 
-# k-Wave and dependencies
-k-Wave-python==0.4.0
+# k-Wave - this is the problematic one
+# k-Wave-python>=0.3.0
+
+# scikit-image for image processing
+scikit-image>=0.21.0,<0.23
